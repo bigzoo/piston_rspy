@@ -15,4 +15,4 @@ line-length = 99
 [build-system]
 # requires = ["maturin>=0.12,<0.13"]
 # build-backend = "maturin"
-requires = ["setuptools", "wheel", "setuptools-rust"]
+requires = ["setuptools == 68.2.2", "wheel", "setuptools-rust"]
